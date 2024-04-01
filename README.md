@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Skapa och publicera din portfolio
 
-## Getting Started
+I dagens uppgift ska vi öva på deployment med nextjs och vercel genom att ni ska få
+publicera er portfolio. Ni ska även öva på app router genom att skriva om er tidigare portfolio med app router.
 
-First, run the development server:
+## Hur du klarar uppgiften
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Designa din portfolio om du inte redan har gjort det. Annars googla `developer portfolio figma` och välj den design du gillar bäst.
+1. Gör om din gamla portfolio från pages router till app router.
+1. Läs på hur du publicerar next-projekt på vercel: [Deploy on Vercel](https://nextjs.org/learn-pages-router/basics/deploying-nextjs-app/deploy)
+1. Publicera alla projekt som du vill visa upp med vercel.
+1. Publicera din portfolio med länkar till alla dina projekt.
+1. (Ej obligatoriskt) Köp ett domännamn och peka det till ditt ip-nummer på vercel. [Läs på om det här](https://vercel.com/docs/projects/domains/add-a-domain)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Hur du lämnar in
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Klicka på uppgiften i canvas och ange länken till din sajt.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+### :boom: Success!
 
-To learn more about Next.js, take a look at the following resources:
+Efter denna uppgift ska ni kunna publicera react-sajter med vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
