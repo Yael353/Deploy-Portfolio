@@ -16,16 +16,24 @@ function Header() {
         {/* mid part */}
         <div className="hidden sm:flex flex-row space-x-4">
           <Link href="#About">
-            <div className="text-white cursor-pointer">About</div>
+            <div className="text-white cursor-pointer hover:text-3xl">
+              About
+            </div>
           </Link>
           <Link href="#Projects">
-            <div className="text-white cursor-pointer">Projects</div>
+            <div className="text-white cursor-pointer hover:text-2xl">
+              Projects
+            </div>
           </Link>
           <Link href="#Skills">
-            <div className="text-white cursor-pointer">Skills</div>
+            <div className="text-white cursor-pointer hover:text-2xl">
+              Skills
+            </div>
           </Link>
           <Link href="#Contact">
-            <div className="text-white cursor-pointer">Contact</div>
+            <div className="text-white cursor-pointer hover:text-2xl">
+              Contact
+            </div>
           </Link>
         </div>
 
