@@ -1,7 +1,8 @@
 import React from "react";
 import { LuMapPin } from "react-icons/lu";
 import { MdEmail } from "react-icons/md";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
+import { FaGithub } from "react-icons/fa";
 
 function Contact() {
   // const { register, handleSubmit } = useForm();
@@ -36,8 +37,12 @@ function Contact() {
           <LuMapPin className="h-8 w-8 animate-pulse" />
           <p className="text-xl text-white text-center">Stockholm</p>
         </div>
+        <div className="flex items-center space-x-5 justify-center">
+          <FaGithub className="h-8 w-8 animate-pulse" />
+          <p className="text-xl text-white text-center">Yael353</p>
+        </div>
 
-        <form
+        {/* <form
           // onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col space-y-2 w-60 sm:w-full mx-auto"
         >
@@ -75,7 +80,7 @@ function Contact() {
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );
